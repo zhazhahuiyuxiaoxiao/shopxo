@@ -1,3 +1,19 @@
+## 个人维护入口（2026-10-29）
+
+本仓是 `gongfuxiang/shopxo` 的个人副本，保留 ShopXO / Devil 作者标识与 `LICENSE.txt`。本次只维护文档，不将上游电商功能或插件列表写成个人原创、已购买插件或已上线业绩。对应移动端是个人 `shopxo-uniapp` 仓库；两仓通过现有 API 契约连接。
+
+当前能力、启动条件和验证边界以 [工程基线](docs/engineering-baseline.md) 为准。后文保留原有项目介绍和上游署名；其中宣传性描述不代表本副本已经完成运行验收。
+
+- [开发约定](AGENTS.md)
+- [OpenSpec 使用流程](openspec/README.md)
+- [核心行为基线](openspec/specs/)
+
+最短启动入口：准备 PHP >=8.0.0、独立 MySQL 与本地 Web 站点，访问 `/install.php`；安装会写数据库和配置，须先确认隔离环境与授权。具体依赖及语法检查见工程基线。当前未运行业务验收。
+
+本次仅补文档与规范，没有改变业务实现，也没有部署服务。
+
+---
+
 <p align="center">
 <img src="https://shopxoserver.oss-cn-beijing.aliyuncs.com/demo/system/logo.jpg" width="360" />
 </p>
